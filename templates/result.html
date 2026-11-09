@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Tax Results</h1>
+
+<p>Income: {{ income }}</p>
+
+<p>Tax: {{ tax }}</p>
+
+<a href="{{ url_for('home') }}">Calculate Again</a>
+
+{% endblock %}
+

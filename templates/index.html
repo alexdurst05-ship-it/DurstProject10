@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Tax Calculator</h1>
+
+<p>Enter your income to calculate your tax.</p>
+
+<form method="post" action="{{ url_for('calculate') }}">
+
+    <label>Income:</label>
+    <input type="text" name="income">
+
+    <button type="submit">Calculate</button>
+
+</form>
+
+{% endblock %}

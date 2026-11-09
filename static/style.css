@@ -1,0 +1,22 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+a {
+    color: rgb(200, 0, 255);
+}
+
+input {
+    margin: 5px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
